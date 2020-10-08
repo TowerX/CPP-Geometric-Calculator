@@ -1,2 +1,2 @@
 # CPP-Geometric-Calculator
-This calculators receive a shape side sizes and output the given area.
+This calculators receive the side size of a shape and calculate the area.
