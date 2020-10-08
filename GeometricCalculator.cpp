@@ -43,7 +43,7 @@ int main()
 	// Calculate the area
 	dArea = (dSideA * dSideB) / 2;
 	// Output the value of dSideA, sideB and dArea calculation to the console with some text.
-	cout << setprecision(1) << fixed << "The sides of the triangle measure " << dSideA << " and " << dSideB << "." << " The area is " << dArea;
+	cout << setprecision(1) << fixed << "The sides of the triangle measure " << dSideA << " and " << dSideB << "." << " The area is " << dArea << "\n";
 
 	return 0;
 }
