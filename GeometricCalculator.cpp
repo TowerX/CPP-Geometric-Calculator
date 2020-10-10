@@ -17,11 +17,14 @@ int main()
 	// First Part
 
 	// Declare and initialize: Variable sideA of Type int with a value of 3.
-	int sideA = 3;
+	int sideA;
 	// Declare and initialize: Variable sideB of Type int with a value of 4.
-	int sideB = 4;
+	int sideB;
 	// Declare variable area of type int.
 	int area;
+	//Taking input values from user
+	cout<<"\n Enter sides";
+	cin>>sideA>>sideB;
 	// Calculate area.
 	area = (sideA * sideB) / 2;
 	// Output the value of sideA, sideB and area calculation to the console with some text. Added a new line at the end to separate the content.
@@ -30,11 +33,16 @@ int main()
 	// Second Part
 
 	// Declare and initialize: Variable dSideA of Type double with a value of 0.
-	double dSideA = 0;
+	double dSideA;
 	// Declare and initialize: Variable sideB of Type double with a value of 0.
-	double dSideB = 0;
-	// Declare a variable to hold the multiplier value for easy access.
-	int multiplier = 5;
+	double dSideB;
+	//Taking input values from user
+	cout<<"\n Enter sides";
+	cin>>dSideA>>dSideB;
+        // Declare a variable to hold the multiplier value for easy access.
+	int multiplier;
+	cout<<"\n Enter multiplier value";
+	cin>>multiplier;
 	// Assign the value of sideA multiplied by 5 to the variable dSideA and dSideB respectively. (side * multiplier).
 	dSideA = (sideA * multiplier);
 	dSideB = (sideB * multiplier);
